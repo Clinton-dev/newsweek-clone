@@ -1,0 +1,19 @@
+.top-nav {
+  color: #fff;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+div.search-form .form-ele {
+  display: relative;
+}
+
+.search-label {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  
+}

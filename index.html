@@ -1,97 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Newsweek</title>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ <link rel="stylesheet" href="style/styles.css">
 </head>
-
-<body>
+<body class="bg-light">
   <div class="container">
-    <!-- navbar section -->
-    <div class="nav-wrapper">
-      <nav class="navbar navbar-expand-lg" style="background-color: #f73805;">top nav</nav>
-      <nav class="navbar navbar-expand-lg bg-light">center nav</nav>
-      <nav class="navbar navbar-expand-lg bg-light">bottom nav</nav>
-    </div>
-    <!-- main section -->
-    <main class="container-fluid" style="background-color: #7793fb;">
-      <div class="container">
-        <!-- top half -->
-        <div class="row" id="top-half">
-
-          <div class="col-9">
-            <div class="row">
-              <div class="col-sm-5 border border-white">
-                nest1
-                <div>nest-div1a</div>
-                <div>nest-div1b</div>
-              </div>
-              <div class="col-sm-7 border border-white">
-                nest2
-                <div>one</div>
-                <div>two(nested-div)</div>
-                <div>three</div>
-                <div>four</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 border border-warning">
-            rightside content
-          </div>
+    <!-- navbar  -->
+     <!-- first nav -->
+      <div class="d-flex justify-content-between align-items-center top-nav" style="background-color:#f72905;">
+        <div>
+          <h4>Wed, Dec 23, 2020</h4>
         </div>
-        <!-- bottom half -->
-        <div class="row bottom-half">
-          <class class="container">
-            <!-- in magazine section -->
-            <grid class="row">
-              <div class="col border border-dark">1</div>
-              <div class="col border border-dark">2</div>
-              <div class="col border border-dark">3</div>
-              <div class="col border border-dark">4</div>
-            </grid>
-            <grid class="row">
-              <div class="col border border-dark">5</div>
-              <div class="col border border-dark">6</div>
-              <div class="col border border-dark">7</div>
-              <div class="col border border-dark">8</div>
-            </grid>
-          </class>
-
-          <class class="container">
-            <!-- editor's pick section -->
-            <grid class="row">
-              <div class="col border border-dark">1</div>
-              <div class="col border border-dark">2</div>
-              <div class="col border border-dark">3</div>
-              <div class="col border border-dark">4</div>
-            </grid>
-            <grid class="row">
-              <div class="col border border-dark">5</div>
-              <div class="col border border-dark">6</div>
-              <div class="col border border-dark">7</div>
-              <div class="col border border-dark">8</div>
-            </grid>
-          </class>
+        <div>
+          <a href="#" class="navbar-brand">
+            <img src="img/NW-logo.PNG" alt="newsweek-logo">
+          </a>
+        </div>
+        <div>
+          <a href="#">Login</a>
+          <button type="button" class="btn btn-warning rounded-pill">Subscribe ></button>
         </div>
       </div>
+      <!-- second nav -->
+        <nav class="navbar navbar-expand-lg navbar-light second-nav" style="background-color: #fff;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">U.S.</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">World</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Business</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Tech &amp; Science</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Newsgeek</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Health</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">The Debate</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Vantage</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Weather</a>
+            </li>
+          </ul>
+          <div class="container-inline search-form">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" arial-label="Search" size="15" maxlength="128">
+            </form>
+          </div>
+        </nav>
+      <!-- bottom nav -->
+      <nav class="navbar navbar-expand-lg navbar-light  last-nav"
+      style="background-color: #fff;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">TRENDING</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">JOE BIDEN</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">DONALD TRUMP</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">CORONAVIRUS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">STIMULUS PACKAGE</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">VACCINE</a>
+          </li>
+        </ul>
+      </nav>
+    <!-- main content -->
+    <main>
 
     </main>
-    <!-- footer section -->
-    <footer class="footer container-fluid" style="background-color: hotpink;">
-      <div class="container">
-        <div>first footer</div>
-        <div>second footer</div>
-      </div>
-    </footer>
+    </div>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> 
 </body>
-
 </html>
