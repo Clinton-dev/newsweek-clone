@@ -17,3 +17,9 @@ div.search-form .form-ele {
   height: 20px;
   
 }
+
+/* featured stories section */
+div.featured-stories img {
+  width: 100%;
+  height: auto;
+}
