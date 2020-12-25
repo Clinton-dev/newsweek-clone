@@ -23,3 +23,34 @@ div.featured-stories img {
   width: 100%;
   height: auto;
 }
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.content .image img {
+  float: left;
+  width: 95px;
+  margin-right: 10px;
+}
+
+.content .head-topic h5{
+  color: #9c9f9f;
+}
+
+article {
+  font-size: 0.9em;
+  font-weight: 300;
+  border-top: 1px solid #afb3b3;
+  padding-top: 10px;
+}
+
+article h5.title {
+  font-size: 1.1em;
+}
+
+/* style section title of every column in top header */
+.section-head-info {
+  color: #9c9f9f;
+}
