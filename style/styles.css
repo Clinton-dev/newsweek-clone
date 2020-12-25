@@ -54,3 +54,70 @@ article h5.title {
 .section-head-info {
   color: #9c9f9f;
 }
+
+/* right most column of header */
+.the-debate {
+  border-width: 3px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #c4c8c8;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+.the-debate .debate-item {
+  font-size: 0.8em;
+}
+
+.the-debate .debate-item p {
+  color: #717373;
+}
+
+.the-debate .debate-item h3 {
+  font-size: 1.3em;
+}
+
+.the-debate .debate-item img {
+  float: left;
+  width: 86px;
+  padding: 5px;
+}
+
+.the-debate .decoration .vs {
+  position: relative;
+  top: 0px;
+  color: #fff;
+  background-color: black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin: 36px auto;
+}
+
+.the-debate .debate-item img#user2 {
+  float: right;
+}
+
+/* opinion section */
+
+
+.the-opinion li{
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #c4c6c6;
+}
+
+.the-opinion .headshot img {
+  float: left;
+  width: 86px;
+  padding-right: 5px;
+}
+
+.the-opinion .info h3{
+  font-size: 1.1em;
+}
+.the-opinion .info p{
+  font-size: 0.9em;
+  color: #717171;
+}
